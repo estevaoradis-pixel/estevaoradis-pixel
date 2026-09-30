@@ -1,0 +1,32 @@
+name: Cobrinha das contribuições
+
+on:
+  schedule:
+    - cron: "0 */12 * * *"   # a cada 12h, mantém a animação em dia
+  workflow_dispatch:          # botão "Run workflow" manual
+  push:
+    branches: [main]          # gera já no primeiro push
+
+permissions:
+  contents: write
+
+jobs:
+  gerar:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Gera os SVGs (claro e escuro)
+        uses: Platane/snk@v3
+        id: snake
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            dist/snake-dark.svg?palette=github-dark&color_snake=#FFC24B
+            dist/snake.svg?color_snake=#E39B2E&color_dots=#ebedf0,#ffe0a3,#ffc24b,#e39b2e,#b9781f
+
+      - name: Publica no branch output
+        uses: crazy-max/ghaction-github-pages@v4
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

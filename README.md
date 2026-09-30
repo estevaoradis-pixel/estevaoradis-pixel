@@ -2,6 +2,13 @@
 
 <img src="assets/banner.svg" alt="Estevão Radis — Desenvolvimento de Software · Sua ideia vira sistema no ar" width="100%">
 
+<!-- a cobrinha percorre as contribuições — atualiza sozinha via GitHub Actions -->
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake-dark.svg">
+  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake.svg">
+  <img alt="Contribuições no GitHub, animadas" src="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake-dark.svg" width="100%">
+</picture>
+
 </div>
 
 ## `01 ·` Quem sou
@@ -48,8 +55,8 @@ Tem uma ideia — ou um problema que dá pra resolver com software? **Chama. Or�
 
 <div align="center">
 
-[![WhatsApp](https://img.shields.io/badge/WhatsApp-Fala_comigo-FFC24B?style=for-the-badge&logo=whatsapp&logoColor=0d1018&labelColor=0d1018)](https://wa.me/5527998843105)
-&nbsp;
-[![E-mail](https://img.shields.io/badge/E--mail-estevao__radis-8FB4FF?style=for-the-badge&logo=maildotru&logoColor=0d1018&labelColor=0d1018)](mailto:estevao_radis@hotmail.com)
+[<img src="assets/btn-whatsapp.svg" alt="WhatsApp (27) 99884-3105" width="360">](https://wa.me/5527998843105)
+
+[<img src="assets/btn-email.svg" alt="E-mail estevao_radis@hotmail.com" width="360">](mailto:estevao_radis@hotmail.com)
 
 </div>
