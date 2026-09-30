@@ -1,0 +1,67 @@
+<svg viewBox="0 0 1200 332" width="1200" height="332" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="O que eu faço: sites e landing, e-commerce, bots e automação, sistemas sob medida, apps e PWA, integrações e API">
+  <defs>
+    <linearGradient id="cardg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#10141e"/><stop offset="1" stop-color="#0a0d14"/></linearGradient>
+    <linearGradient id="topline" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#FFC24B" stop-opacity="0"/><stop offset="0.5" stop-color="#FFC24B" stop-opacity="0.7"/><stop offset="1" stop-color="#FFC24B" stop-opacity="0"/></linearGradient>
+  </defs>
+  <rect width="1200" height="332" fill="#080a12"/>
+
+  <!-- reusable: cada card é um grupo -->
+  <!-- linha 1 -->
+  <g transform="translate(40,10)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,30)" fill="none" stroke="#FFC24B" stroke-width="2">
+      <rect x="0" y="2" width="34" height="26" rx="3"/><line x1="0" y1="10" x2="34" y2="10"/><circle cx="6" cy="6" r="1.3" fill="#FFC24B"/><circle cx="11" cy="6" r="1.3" fill="#FFC24B"/>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">Sites &amp; Landing</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">institucional · landing que converte</text>
+  </g>
+  <g transform="translate(420,10)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,30)" fill="none" stroke="#FFC24B" stroke-width="2" stroke-linejoin="round">
+      <path d="M0 2 h6 l5 22 h20 l5 -16 h-26"/><circle cx="14" cy="30" r="2.4" fill="#FFC24B"/><circle cx="30" cy="30" r="2.4" fill="#FFC24B"/>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">E-commerce</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">loja · checkout · painel</text>
+  </g>
+  <g transform="translate(800,10)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,28)" fill="none" stroke="#FFC24B" stroke-width="2">
+      <rect x="2" y="8" width="30" height="22" rx="5"/><line x1="17" y1="2" x2="17" y2="8"/><circle cx="17" cy="2" r="2" fill="#FFC24B"/><circle cx="11" cy="19" r="2.2" fill="#FFC24B"/><circle cx="23" cy="19" r="2.2" fill="#FFC24B"/>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">Bots &amp; Automação</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">Discord · WhatsApp · rotinas</text>
+  </g>
+
+  <!-- linha 2 -->
+  <g transform="translate(40,172)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,30)" fill="none" stroke="#FFC24B" stroke-width="2">
+      <circle cx="16" cy="14" r="13"/><circle cx="16" cy="14" r="4.5" fill="#FFC24B" stroke="none"/>
+      <g stroke-linecap="round"><line x1="16" y1="-1" x2="16" y2="3"/><line x1="16" y1="25" x2="16" y2="29"/><line x1="1" y1="14" x2="5" y2="14"/><line x1="27" y1="14" x2="31" y2="14"/><line x1="5.5" y1="3.5" x2="8" y2="6"/><line x1="24" y1="22" x2="26.5" y2="24.5"/></g>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">Sistemas sob medida</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">o que a sua operação precisa</text>
+  </g>
+  <g transform="translate(420,172)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,28)" fill="none" stroke="#FFC24B" stroke-width="2">
+      <rect x="8" y="0" width="20" height="32" rx="4"/><line x1="15" y1="4" x2="21" y2="4"/><circle cx="18" cy="26" r="1.6" fill="#FFC24B"/>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">Apps &amp; PWA</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">web app rápido · instalável</text>
+  </g>
+  <g transform="translate(800,172)">
+    <rect width="360" height="150" rx="14" fill="url(#cardg)" stroke="#FFC24B" stroke-opacity="0.22"/>
+    <rect x="14" width="332" height="1.5" fill="url(#topline)"/>
+    <g transform="translate(28,30)" fill="none" stroke="#FFC24B" stroke-width="2">
+      <circle cx="6" cy="14" r="5"/><circle cx="30" cy="14" r="5"/><line x1="11" y1="14" x2="25" y2="14"/><path d="M19 9 l6 5 l-6 5" stroke-linecap="round" stroke-linejoin="round"/>
+    </g>
+    <text x="28" y="104" font-family="ui-monospace,Menlo,monospace" font-size="19" font-weight="700" fill="#fff">Integrações / API</text>
+    <text x="28" y="130" font-family="ui-monospace,Menlo,monospace" font-size="13.5" fill="#9aa4b2">conecta os seus sistemas</text>
+  </g>
+</svg>

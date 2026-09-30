@@ -1,0 +1,29 @@
+<svg viewBox="0 0 1120 150" width="1120" height="150" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Como sai do papel: ideia, código, testes e CI, no ar">
+  <defs>
+    <linearGradient id="rail" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8FB4FF"/><stop offset="1" stop-color="#FFC24B"/></linearGradient>
+    <filter id="fg" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <rect width="1120" height="150" fill="#0a0d16"/>
+  <line x1="90" y1="66" x2="1030" y2="66" stroke="url(#rail)" stroke-width="2.5" stroke-opacity=".35"/>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" text-anchor="middle">
+    <g><circle cx="110" cy="66" r="11" fill="#0a0d16" stroke="#8FB4FF" stroke-width="2"/>
+       <circle cx="110" cy="66" r="11" fill="none" stroke="#cfe0ff" stroke-width="2" filter="url(#fg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0;0.03;0.18;1" dur="3.6s" repeatCount="indefinite"/></circle>
+       <text x="110" y="104" fill="#cfe0ff">IDEIA</text></g>
+    <g><circle cx="417" cy="66" r="11" fill="#0a0d16" stroke="#9db8ef" stroke-width="2"/>
+       <circle cx="417" cy="66" r="11" fill="none" stroke="#e7d3a6" stroke-width="2" filter="url(#fg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.30;0.36;0.5;1" dur="3.6s" repeatCount="indefinite"/></circle>
+       <text x="417" y="104" fill="#dfe6f2">CÓDIGO</text></g>
+    <g><circle cx="723" cy="66" r="11" fill="#0a0d16" stroke="#d8bd7a" stroke-width="2"/>
+       <circle cx="723" cy="66" r="11" fill="none" stroke="#FFE0A3" stroke-width="2" filter="url(#fg)"><animate attributeName="opacity" values="0;0;1;0;0" keyTimes="0;0.62;0.68;0.82;1" dur="3.6s" repeatCount="indefinite"/></circle>
+       <text x="723" y="104" fill="#f0e6cf">TESTES + CI</text></g>
+    <g><circle cx="1010" cy="66" r="13" fill="#1a1400" stroke="#FFC24B" stroke-width="2.5"/>
+       <path d="M1004 66 l4 4 l8 -9" fill="none" stroke="#FFC24B" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+       <circle cx="1010" cy="66" r="13" fill="none" stroke="#FFE0A3" stroke-width="2.5" filter="url(#fg)"><animate attributeName="opacity" values="0;0;1;.4;.4" keyTimes="0;0.9;0.96;0.99;1" dur="3.6s" repeatCount="indefinite"/></circle>
+       <text x="1010" y="108" fill="#FFC24B" font-weight="700">NO AR</text></g>
+  </g>
+  <g filter="url(#fg)">
+    <circle r="5" fill="#fff"><animateMotion dur="3.6s" repeatCount="indefinite" path="M 110 66 L 1010 66"/></circle>
+    <circle r="3.5" fill="#FFE0A3" opacity=".6"><animateMotion dur="3.6s" begin="0.08s" repeatCount="indefinite" path="M 110 66 L 1010 66"/></circle>
+    <circle r="2.5" fill="#FFC24B" opacity=".35"><animateMotion dur="3.6s" begin="0.16s" repeatCount="indefinite" path="M 110 66 L 1010 66"/></circle>
+  </g>
+  <text x="90" y="28" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" fill="#6e7681">o mesmo processo em todo projeto — nada de improviso</text>
+</svg>

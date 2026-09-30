@@ -1,0 +1,71 @@
+<svg viewBox="0 0 1200 300" width="1200" height="300" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Estevão Radis — Desenvolvimento de Software. Sua ideia vira sistema no ar.">
+  <defs>
+    <radialGradient id="halo" cx="50%" cy="50%" r="50%">
+      <stop offset="0" stop-color="#FFC24B" stop-opacity="0.30"/>
+      <stop offset="45%" stop-color="#FFC24B" stop-opacity="0.06"/>
+      <stop offset="100%" stop-color="#FFC24B" stop-opacity="0"/>
+    </radialGradient>
+    <radialGradient id="bgglow" cx="72%" cy="45%" r="60%">
+      <stop offset="0" stop-color="#141b2e"/><stop offset="60%" stop-color="#0a0d16"/><stop offset="100%" stop-color="#05060b"/>
+    </radialGradient>
+    <radialGradient id="vign" cx="50%" cy="42%" r="75%"><stop offset="60%" stop-color="#000" stop-opacity="0"/><stop offset="100%" stop-color="#000" stop-opacity="0.55"/></radialGradient>
+    <linearGradient id="nm" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ffffff"/><stop offset="1" stop-color="#b9c4d6"/></linearGradient>
+    <linearGradient id="trace" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#8FB4FF" stop-opacity=".5"/><stop offset="1" stop-color="#FFC24B" stop-opacity=".6"/></linearGradient>
+    <filter id="soft" x="-70%" y="-70%" width="240%" height="240%"><feGaussianBlur stdDeviation="2.4" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="soft2" x="-120%" y="-120%" width="340%" height="340%"><feGaussianBlur stdDeviation="5" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+    <filter id="bokeh" x="-60%" y="-60%" width="220%" height="220%"><feGaussianBlur stdDeviation="12"/></filter>
+  </defs>
+
+  <rect width="1200" height="300" fill="url(#bgglow)"/>
+  <g filter="url(#bokeh)">
+    <circle cx="1085" cy="70" r="24" fill="#FFC24B" opacity=".28"/>
+    <circle cx="1158" cy="208" r="18" fill="#FFE0A3" opacity=".20"/>
+    <circle cx="250" cy="236" r="26" fill="#8FB4FF" opacity=".15"/>
+    <circle cx="610" cy="52" r="15" fill="#FFC24B" opacity=".13"/>
+    <circle cx="880" cy="252" r="20" fill="#8FB4FF" opacity=".15"/>
+    <circle cx="1120" cy="120" r="12" fill="#FFE0A3" opacity=".22"/>
+    <circle cx="150" cy="90" r="16" fill="#8FB4FF" opacity=".10"/>
+  </g>
+  <g stroke="#aebfe0" stroke-width="1" opacity="0.045">
+    <line x1="210" y1="18" x2="196" y2="72"/><line x1="520" y1="8" x2="506" y2="62"/><line x1="835" y1="22" x2="821" y2="76"/><line x1="1060" y1="14" x2="1046" y2="68"/><line x1="360" y1="205" x2="346" y2="259"/><line x1="720" y1="212" x2="706" y2="266"/><line x1="990" y1="200" x2="976" y2="254"/>
+  </g>
+  <ellipse cx="1004" cy="150" rx="230" ry="180" fill="url(#halo)"/>
+  <rect width="1200" height="300" fill="url(#vign)"/>
+
+  <g fill="none" stroke="url(#trace)" stroke-width="2" stroke-linejoin="round" opacity="0.7">
+    <path id="p1" d="M 946 120 L 720 120 L 690 92 L 380 92"/>
+    <path id="p2" d="M 946 150 L 300 150"/>
+    <path id="p3" d="M 946 180 L 760 180 L 730 210 L 470 210"/>
+    <path id="p5" d="M 1064 150 L 1170 150"/>
+    <path id="p6" d="M 946 165 L 700 165 L 674 196 L 560 196"/>
+  </g>
+  <g filter="url(#soft2)">
+    <circle r="3.4" fill="#FFE0A3"><animateMotion dur="3s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="2" fill="#FFC24B" opacity=".5"><animateMotion dur="3s" begin="0.09s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p1"/></animateMotion></circle>
+    <circle r="3.4" fill="#cfe0ff"><animateMotion dur="2.4s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="2" fill="#8FB4FF" opacity=".5"><animateMotion dur="2.4s" begin="0.1s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p2"/></animateMotion></circle>
+    <circle r="3.4" fill="#FFE0A3"><animateMotion dur="3.5s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p3"/></animateMotion></circle>
+    <circle r="3.4" fill="#FFE0A3"><animateMotion dur="2.8s" begin="0.7s" repeatCount="indefinite" keyPoints="1;0" keyTimes="0;1" calcMode="linear"><mpath href="#p6"/></animateMotion></circle>
+    <circle r="3" fill="#cfe0ff"><animateMotion dur="2s" begin="0.3s" repeatCount="indefinite"><mpath href="#p5"/></animateMotion></circle>
+  </g>
+
+  <g stroke="#FFC24B" stroke-width="2" stroke-opacity="0.85">
+    <line x1="946" y1="120" x2="936" y2="120"/><line x1="946" y1="135" x2="936" y2="135"/><line x1="946" y1="150" x2="936" y2="150"/><line x1="946" y1="165" x2="936" y2="165"/><line x1="946" y1="180" x2="936" y2="180"/>
+    <line x1="1064" y1="135" x2="1074" y2="135"/><line x1="1064" y1="150" x2="1074" y2="150"/><line x1="1064" y1="165" x2="1074" y2="165"/>
+    <line x1="1004" y1="96" x2="1004" y2="86"/><line x1="988" y1="96" x2="988" y2="86"/><line x1="1020" y1="96" x2="1020" y2="86"/>
+  </g>
+  <rect x="948" y="96" width="112" height="108" rx="14" fill="#0a0d16" stroke="#FFC24B" stroke-width="2"/>
+  <rect x="948" y="96" width="112" height="108" rx="14" fill="none" stroke="#FFE0A3" stroke-width="2" filter="url(#soft2)"><animate attributeName="opacity" values="0.2;0.8;0.2" dur="2.6s" repeatCount="indefinite"/></rect>
+  <text x="1004" y="163" text-anchor="middle" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="40" font-weight="700" fill="#FFC24B" filter="url(#soft)">ER</text>
+
+  <text x="64" y="86" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="15" letter-spacing="5" fill="#FFC24B">DESENVOLVIMENTO DE SOFTWARE</text>
+  <text x="62" y="150" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="54" font-weight="700" fill="url(#nm)">ESTEVÃO RADIS</text>
+  <text x="64" y="190" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="21" fill="#e8edf6">Sua ideia vira sistema no ar.</text>
+  <text x="64" y="221" font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="14.5" fill="#8b93a3">sites · e-commerce · bots · automação · sistemas sob medida</text>
+  <g font-family="ui-monospace,SFMono-Regular,Menlo,Consolas,monospace" font-size="13" letter-spacing="2">
+    <rect x="0" y="270" width="1200" height="30" fill="#05060b"/>
+    <circle cx="70" cy="285" r="3.5" fill="#5CE08A" filter="url(#soft)"><animate attributeName="opacity" values="1;0.25;1" dur="1.8s" repeatCount="indefinite"/></circle>
+    <text x="86" y="290" fill="#c9d1d9">DISPONÍVEL PARA PROJETOS</text>
+    <text x="1136" y="290" text-anchor="end" fill="#FFC24B">orçamento →</text>
+  </g>
+</svg>
