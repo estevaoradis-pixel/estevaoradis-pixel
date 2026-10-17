@@ -1,61 +1,61 @@
 <div align="center">
 
-<img src="assets/banner.svg" alt="Estevão Radis — Desenvolvimento de Software · Sua ideia vira sistema no ar" width="100%">
+<img src="assets/banner.svg" alt="Estevão Radis — Software Development · Your idea becomes a live system" width="100%">
 
-<!-- a cobrinha percorre as contribuições — atualiza sozinha via GitHub Actions -->
+<!-- the snake walks through the contributions — updated automatically by GitHub Actions -->
 <picture>
   <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake-dark.svg">
   <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake.svg">
-  <img alt="Contribuições no GitHub, animadas" src="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake-dark.svg" width="100%">
+  <img alt="Animated GitHub contributions" src="https://raw.githubusercontent.com/estevaoradis-pixel/estevaoradis-pixel/output/snake-dark.svg" width="100%">
 </picture>
 
 </div>
 
-## `01 ·` Quem sou
+## `01 ·` About me
 
-**Pego a ideia e entrego rodando.**
+**I take the idea and deliver it running.**
 
-Desenvolvo software sob medida — do site que vende ao bot que automatiza. Não entrego "funciona na minha máquina": código testado, com CI, feito pra rodar **24/7 sem cair**.
+I build custom software — from the website that sells to the bot that automates. I don't deliver "works on my machine": tested code, with CI, built to run **24/7 without going down**.
 
-## `02 ·` O que eu faço
+## `02 ·` What I do
 
 <div align="center">
 
-<img src="assets/servicos.svg" alt="Sites e Landing · E-commerce · Bots e Automação · Sistemas sob medida · Apps e PWA · Integrações e API" width="100%">
+<img src="assets/servicos.svg" alt="Websites and Landing · E-commerce · Bots and Automation · Custom Systems · Apps and PWA · Integrations and API" width="100%">
 
 </div>
 
-## `03 ·` Por que comigo
+## `03 ·` Why work with me
 
-- **Testado de verdade** — testes automatizados + CI. Não quebra quando o cliente usa.
-- **Feito pra produção** — roda 24/7, com deploy automático e monitoramento.
-- **Do zero ao ar** — código, testes, publicação e o que vier depois: eu cuido de tudo.
+- **Actually tested** — automated tests + CI. It doesn't break when the client uses it.
+- **Built for production** — runs 24/7, with automatic deploys and monitoring.
+- **From zero to live** — code, tests, deployment and whatever comes next: I handle all of it.
 
 ## `04 ·` Stack
 
 ```text
-LINGUAGENS   JavaScript · TypeScript · Python
-FRONT-END    React · Next.js · responsivo · PWA
-BACK/DADOS   Node · Supabase / Postgres · APIs REST
-QUALIDADE    testes automatizados · CI · deploy contínuo
-ONDE RODA    Railway · Vercel · 24/7
+LANGUAGES    JavaScript · TypeScript · Python
+FRONT-END    React · Next.js · responsive · PWA
+BACK/DATA    Node · Supabase / Postgres · REST APIs
+QUALITY      automated tests · CI · continuous deployment
+RUNS ON      Railway · Vercel · 24/7
 ```
 
-## `05 ·` Como sai do papel
+## `05 ·` How it ships
 
 <div align="center">
 
-<img src="assets/pipeline.svg" alt="Ideia → Código → Testes + CI → No ar" width="100%">
+<img src="assets/pipeline.svg" alt="Idea → Code → Tests + CI → Live" width="100%">
 
 </div>
 
-## `06 ·` Vamos conversar
+## `06 ·` Let's talk
 
-Tem uma ideia — ou um problema que dá pra resolver com software? **Chama. Orçamento sem compromisso.**
+Have an idea — or a problem software can solve? **Reach out. Free, no-obligation quote.**
 
 <div align="center">
 
-[<img src="assets/btn-whatsapp.svg" alt="WhatsApp (27) 99884-3105" width="360">](https://wa.me/5527998843105)
+[<img src="assets/btn-whatsapp.svg" alt="WhatsApp +55 27 99884-3105" width="360">](https://wa.me/5527998843105)
 
 [<img src="assets/btn-email.svg" alt="E-mail estevao_radis@hotmail.com" width="360">](mailto:estevao_radis@hotmail.com)
 
